@@ -4,7 +4,6 @@ public class Student {
   static int sum_rate, counter;
 
 
-
   public Student(String name) {
     this.name = name;
     counter ++;
@@ -14,10 +13,7 @@ public class Student {
     if(counter != 0){
       return (double) sum_rate / counter;}
     else {
-      return 0.0d;
-    }
-
-
+      return 0.0d;}
   }
 
   public String getName() {
@@ -44,8 +40,7 @@ public class Student {
     } else if (this.rating < student.rating) {
       return false;
     } else {
-      return true;
-    }
+      return true;}
   }
 
   public void changeRating(int rating) {
